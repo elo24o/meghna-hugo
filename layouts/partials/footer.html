@@ -19,8 +19,10 @@
 						<img src="{{ .Site.Params.logo | absURL }}" alt="Meghna" />
 					</a>
 					<br>
-					<p>Design And Developed by <a href="{{ .Site.Params.footer.copyrightURL | absURL }}"> {{ with .Site.Params.footer.copyright }} {{ . }} {{ end }} </a>. Copyright &copy; <script>
-							document.write(new Date().getFullYear())
+					<p id="copy-p">Design And Developed by <a href="{{ .Site.Params.footer.copyrightURL | absURL }}"> {{ with .Site.Params.footer.copyright }} {{ . }} {{ end }} </a>. Copyright &copy; 
+						<script>
+							var div = document.getElementById('copy-p');
+							div.innerHTML += new Date().getFullYear();
 						</script>. All Rights Reserved.</p>
 				</div>
 			</div>

@@ -1,4 +1,5 @@
 jQuery(function ($) {
+	console.log("dets")
 	"use strict";
 
 	/* ========================================================================= */
@@ -301,6 +302,7 @@ function changeValue(elementName, newValue) {
 /*	Honeypot
 /* ========================================================================= */
 $(document).ready(function () {
+	console.log("dets")
 	$('form').submit(function () {
 		if ($('input[type="text"]#e-mail').val().length > 0) {
 			$('form').attr('action', '/');
