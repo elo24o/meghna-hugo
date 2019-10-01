@@ -184,12 +184,12 @@ function initialize() {
 		"featureType": "landscape",
 		"elementType": "geometry.fill",
 		"stylers": [{
-			"color": "#2F3238"
+			"color": "#c9c9c9"
 		}]
 	}, {
 		"elementType": "labels.text.fill",
 		"stylers": [{
-			"color": "#FFFFFF"
+			"color": "#2F3238"
 		}]
 	}, {
 		"elementType": "labels.text.stroke",
@@ -200,7 +200,7 @@ function initialize() {
 		"featureType": "road",
 		"elementType": "geometry.fill",
 		"stylers": [{
-			"color": "#50525f"
+			"color": "#164959"
 		}]
 	}, {
 		"featureType": "road",
@@ -208,7 +208,7 @@ function initialize() {
 		"stylers": [{
 			"visibility": "on"
 		}, {
-			"color": "#808080"
+			"color": "#1a96ba"
 		}]
 	}, {
 		"featureType": "poi",
@@ -226,7 +226,7 @@ function initialize() {
 		"featureType": "poi",
 		"elementType": "geometry",
 		"stylers": [{
-			"color": "#808080"
+			"color": "#1a96ba"
 		}]
 	}, {
 		"featureType": "water",

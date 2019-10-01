@@ -880,7 +880,7 @@ a:hover {
   padding-right: 5px;
 }
 
-.error {
+.email-error {
   display: none;
   padding: 10px;
   color: #D8000C;
